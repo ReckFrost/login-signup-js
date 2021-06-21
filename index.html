@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form class="form" name="register" id="register">
+            <h1 class="form_title">Sign up</h1>
+            <div class="form_input-group">
+                <input type="text" class="form_input" id="name" autofocus placeholder="Name">
+            </div>
+            <div class="form_input-group">
+                <input type="text" class="form_input" id="email" autofocus placeholder="Email">
+            </div>
+            <div class="form_input-group">
+                <input type="password" class="form_input" id="passwd" autofocus placeholder="Password">
+            </div>
+            <div class="form_input-group">
+                <input type="password" class="form_input" id="cpasswd" autofocus placeholder="Confirm Password">
+            </div>
+            <div class="form_input-group">
+                <input type="text" class="form_input" id="phone" autofocus placeholder="Phone">
+            </div>
+            <div class="form_input-group form_input-gender">
+                <label>Gender</label>
+                <div class="input-gender">
+                    <label><input type="radio" name="gender" id="gender" value="Male">Male</label>
+                    <label><input type="radio" name="gender" id="gender" value="Female">Female</label>
+                    <label><input type="radio" name="gender" id="gender" value="Others">Others</label>
+                </div>
+            </div>
+            <button class="form_button" type="submit">Continue</button>
+            <p class="form_text">
+                <a href="login.html" class="form_link"> Already have an account! Login Here</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
